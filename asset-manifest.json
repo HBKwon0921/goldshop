@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/goldshop/static/css/main.31f78840.css",
-    "main.js": "/goldshop/static/js/main.1007e6a8.js",
+    "main.js": "/goldshop/static/js/main.85e18c92.js",
     "static/js/787.0de065c8.chunk.js": "/goldshop/static/js/787.0de065c8.chunk.js",
     "index.html": "/goldshop/index.html",
     "main.31f78840.css.map": "/goldshop/static/css/main.31f78840.css.map",
-    "main.1007e6a8.js.map": "/goldshop/static/js/main.1007e6a8.js.map",
+    "main.85e18c92.js.map": "/goldshop/static/js/main.85e18c92.js.map",
     "787.0de065c8.chunk.js.map": "/goldshop/static/js/787.0de065c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31f78840.css",
-    "static/js/main.1007e6a8.js"
+    "static/js/main.85e18c92.js"
   ]
 }
