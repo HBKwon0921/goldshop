@@ -1,10 +1,10 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import BannerCard from '../components/BannerCard';
-import { Pagination } from 'swiper/modules';
-import cssStyle from '../css/MainBanner.module.css';
+import { Swiper, SwiperSlide } from "swiper/react";
+import BannerCard from "../components/BannerCard";
+import { Pagination } from "swiper/modules";
+import cssStyle from "../css/MainBanner.module.css";
 
-import { bannerList } from '../productData';
-import { useState } from 'react';
+import { bannerList } from "../productData";
+import { useState } from "react";
 
 export default function MainBanner() {
   let [bList] = useState(bannerList);
