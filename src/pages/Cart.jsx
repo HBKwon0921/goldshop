@@ -47,7 +47,10 @@ export default function Cart() {
               className={cssStyle.img}
               onClick={() => navigate(`/detail/${item._id}`)}
             >
-              <img src={`/img/${item.img}`} alt={item.title} />
+              <img
+                src={`${process.env.PUBLIC_URL}/img/${item.img}`}
+                alt={item.title}
+              />
             </div>
             <div className={cssStyle.title}>{item.title}</div>
             <div className={cssStyle.num}>

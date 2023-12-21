@@ -21,7 +21,10 @@ export default function Watched() {
               Navigate(`/detail/$(list._id)`);
             }}
           >
-            <img src={`/img/${list.img}`} alt={`/img/${list.title}`} />
+            <img
+              src={`${process.env.PUBLIC_URL}/img/${list.img}`}
+              alt={`/img/${list.title}`}
+            />
           </li>
         ))}
       </ul>

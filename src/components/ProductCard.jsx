@@ -1,5 +1,5 @@
-import { useNavigate } from 'react-router-dom';
-import cssStyle from '../css/ProductCard.module.css';
+import { useNavigate } from "react-router-dom";
+import cssStyle from "../css/ProductCard.module.css";
 // import styled from 'styled-components';
 
 export default function ProductCard({ data }) {
@@ -10,9 +10,12 @@ export default function ProductCard({ data }) {
   return (
     <figure className={cssStyle.pCard} onClick={goDetail}>
       <div>
-        <img src={`/img/${data.img}`} alt={data.title} />
+        <img
+          src={`${process.env.PUBLIC_URL}/img/${data.img}`}
+          alt={data.title}
+        />
       </div>
-      {data.discount !== '0' && <p>{data.discount}%</p>}
+      {data.discount !== "0" && <p>{data.discount}%</p>}
       <figcaption>
         <strong>{data.title}</strong>
         <span>{Number(data.price).toLocaleString()}원</span>
